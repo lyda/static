@@ -1,0 +1,9 @@
+digraph foo {
+    bar[href="bar.txt"]
+    floyd[href="floyd.txt"]
+    baz[href="baz.txt"]
+
+    bar -> floyd
+    bar -> baz
+    baz -> bar
+}
