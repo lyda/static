@@ -1,3 +1,4 @@
+# Build with dot -Tsvg foo.dot > foo.svg
 digraph foo {
     bar[href="bar.txt"]
     floyd[href="floyd.txt"]
